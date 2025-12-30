@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azetedris</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Azetedris</div>
+        <ul>
+            <li><a href="#home">Ana Səhifə</a></li>
+            <li><a href="#subjects">Mövzular</a></li>
+            <li><a href="#materials">Dərs Materialları</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1 data-aos="fade-up">Azetedris - Dərslər Sənin Əlinin Altında</h1>
+        <p data-aos="fade-up" data-aos-delay="200">Riyaziyyat, Fizika, Kimya və digər fənlər üzrə dərslər.</p>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects">
+        <h2 data-aos="fade-right">Mövzular</h2>
+        <div class="cards">
+            <div class="card" data-aos="zoom-in">
+                <h3>Riyaziyyat</h3>
+                <p>Əsas anlayışlar və həll üsulları.</p>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                <h3>Fizika</h3>
+                <p>Qanunlar, nümunələr və təcrübələr.</p>
+            </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
+                <h3>Kimya</h3>
+                <p>Reaksiyalar və təcrübələr.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Section -->
+    <section id="materials">
+        <h2 data-aos="fade-left">Dərs Materialları</h2>
+        <div class="materials" data-aos="fade-up">
+            <a href="#">Video Dərs 1</a>
+            <a href="#">PDF Material 1</a>
+            <a href="#">Video Dərs 2</a>
+            <a href="#">PDF Material 2</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 data-aos="fade-up">Əlaqə</h2>
+        <form data-aos="fade-up" data-aos-delay="200">
+            <input type="text" placeholder="Adınız" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mesajınız" required></textarea>
+            <button type="submit">Göndər</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Azetedris. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
